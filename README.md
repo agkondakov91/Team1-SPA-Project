@@ -57,7 +57,6 @@ CSS
 
 JavaScript
 1. Стиль:
-
 Именование переменных в camelCase, констант — UPPER_CASE
 Пример:
 js
