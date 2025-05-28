@@ -97,3 +97,29 @@ header div {
 #buy-now:active, #burger-btn:active {
     background: #bfbfbf;
 }
+@media (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
+
+    .nav-h {
+        display: none;
+    }
+
+    #b {
+        display: block;
+    }
+
+    #burger-menu {
+        display: none; 
+        right: -400px;
+        top: 0;
+        transition: right 0.3s ease-in-out;
+        z-index: 999;
+    }
+
+    #burger-menu.active {
+        display: block;
+        right: 0;
+    }
+}
