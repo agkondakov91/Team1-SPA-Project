@@ -1,0 +1,13 @@
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+    --color-yellow: #E2B013;
+    --color-yellow-dark: #94740d;
+    --color-gray: #333333;
+    --color-light-gray: #bfbfbf;
+    --color-burger-menu: rgba(255, 234, 0, 1);
+
+    --font-family-main: 'Jost', 'Arial', sans-serif;
+    --font-size-main: 18px;
+    --line-height-main: 20px;
+}
