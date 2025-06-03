@@ -97,6 +97,7 @@ header div {
 #buy-now:active, #burger-btn:active {
     background: #bfbfbf;
 }
+
 h1 {
     font-style: normal;
     font-weight: 400;
@@ -189,4 +190,65 @@ p {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 115px;
+}
+
+#info2 img {
+    margin-right: 50px;
+}
+
+#info2 p {
+    margin-bottom: 28px;
+}
+
+#info2 ul {
+    list-style: none;
+    display: flex;
+    max-width: 400px;
+}
+
+#info2 ul li {
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+#info2 ul li div {
+    padding: 9px 30px 9px 16px;
+    background: #000;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.heading {
+    padding: 6px 100px 16px 30px;
+    background: #000;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+    max-width: fit-content;
+    margin-bottom: 60px;
+}
+
+.wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.wrap2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.wrap div, .wrap2 div {
+    padding: 29px;
+    background-color: rgba(124, 124, 124, 0.1);
+    margin-right: 46px;
+    margin-bottom: 78px;
 }
