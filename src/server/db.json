@@ -1,8 +1,8 @@
- {
-  "heroSection": {
+{
+  "heroContent": {
     "id": 1,
     "h3": "Design addicted",
-    "h1": "A stylish UI Kit",
+    "h1": "A stylish UI Kit", 
     "h2": "for all web creatives",
     "description": "Zero is a Webflow Ecommerce and CMS UI kit including several carefully designed page layouts."
   },
@@ -32,17 +32,4 @@
       "title2": "customization"
     }
   ]
-  {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
-  }
 }
