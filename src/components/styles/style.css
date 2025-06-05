@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {padding: 0px 60px;}
 
 header {
