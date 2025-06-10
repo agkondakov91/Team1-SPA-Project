@@ -256,3 +256,230 @@ p {
     margin-right: 46px;
     margin-bottom: 78px;
 }
+hr {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 68px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+footer div {
+    margin-right: 50px;
+}
+
+#links {
+    margin-top: 198px;
+}
+
+footer img {
+    cursor: pointer;
+    margin-right: 16px;
+}
+
+input {
+    margin-top: 30px;
+    height: 40px;
+    width: 400px;
+    font-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#ad button {
+    height: 40px;
+    width: 100px;
+    background: #000;
+    color: #fff;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+#ad button:hover {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+}
+
+#ad button:active {
+    background: rgba(0, 0, 0, 0.8);
+    border: none;
+    cursor: pointer;
+}
+
+.foot-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-nav ul {
+    list-style: none;
+    margin-bottom: 17px;
+}
+
+.foot-nav li {
+    margin-bottom: 13px;
+}
+
+.foot-nav a {
+    text-decoration: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #333333;
+}
+
+
+@media (max-width: 1024px) {
+    .wrap {
+        display: block;
+    }
+
+    .wrap2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .wrap div, .wrap2 div {
+        width: fit-content;
+        margin: auto;
+        margin-bottom: 39px;        
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+
+    h2 {
+        font-size: 38px
+    }
+
+    #info1, #info2 {
+        display: block;
+        text-align: center;
+    }
+    #cards {
+        margin: auto;
+    }
+
+    #info2 img {
+        margin: auto;
+    }
+
+    #info2 ul {
+        margin: auto;
+    }
+
+    .heading {
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .foot-nav {
+        display: block;
+    }
+
+    .foot-nav li {
+        margin-bottom: 9px;
+    }
+
+    .wrap2 {
+        display: block;
+    }
+    .nav-li {
+        margin-right: 15px;
+    }
+
+    #buy-now {
+        padding: 9px 1px;
+        font-size: 10px;
+    }
+
+    body {
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width: 430px) {
+    #b {
+        display: inline-block;
+    }
+
+    .himg {
+        max-width: 400px;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer div {
+        margin: auto;
+    }
+
+    .wrap img, .wrap2 img {
+        max-width: 300px;
+    }
+
+    .heading {
+        padding: 3px 50px 8px 15px;
+        font-size: 24px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .nav-h, #buy-now {
+        display: none;
+    }
+}
+
+@media (max-width: 385px) {
+    #burger-menu {
+        width: 345px;
+        padding: 10px;
+    }
+
+    img, .himg {
+        max-width: 350px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    #info2 ul li div {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 321px) {
+    body {
+        padding: 0px;
+    }
+
+    #burger-menu {
+        width: 325px;
+    }
+
+    .wrap div, .wrap2 div {
+        padding: 0px;
+    }
+
+    .himg {
+        max-width: 310px;
+    }
+}
