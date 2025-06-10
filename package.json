@@ -12,16 +12,4 @@
   "dependencies": {
     "json-server": "^1.0.0-beta.3"
   }
-  {
-    "id": 1,
-    "image": "1.png",
-    "title1": "smooth",
-    "title2": "interactions"
-  },
-  {
-    "id": 2,
-    "image": "2.png",
-    "title1": "many",
-    "title2": "page layouts"
-  },
 }
