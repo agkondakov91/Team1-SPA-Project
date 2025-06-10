@@ -3,10 +3,6 @@
     padding: 0px;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {padding: 0px 60px;}
 
 header {
@@ -256,6 +252,7 @@ p {
     margin-right: 46px;
     margin-bottom: 78px;
 }
+
 
 hr {
     border: none;
