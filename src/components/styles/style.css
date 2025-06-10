@@ -1,3 +1,10 @@
+@import url('../header/header.css');
+@import url('../body/body.css');
+@import url('../burger/burger.css');
+@import url('../wrap/wrap.css');
+@import url('../info/info.css');
+@import url('../nav/nav.css');
+@import url('../buy-now/buy-now.css');
 * {
     margin: 0px;
     padding: 0px;
@@ -7,100 +14,24 @@ html {
     scroll-behavior: smooth;
 }
 
-body {padding: 0px 60px;}
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px 0px;
-}
 
-header div {
-    display: flex;
-    align-items: center;
-}
+
 
 #right img {
     margin-left: 20px;
     cursor: pointer;
 }
 
-.nav-h {
-    text-decoration: none;
-    display: inline-block;
-    list-style: none;
-}
 
-.nav-h a {
-    color: #000;
-    text-decoration: none
-}
-
-.nav-h a:hover, .foot-nav a:hover {
-    color: #E2B013;
-}
-
-.nav-h a:active, .foot-nav a:active {
-    color: #94740d;
-}
-
-.nav-li {
-    margin-right: 25px;
-}
 
 #b {
     display: none;
 }
 
-#burger-menu {
-    position: fixed;
-    background-color: rgba(255, 234, 0, 1);
-    width: 385px;
-    height: 100%;
-    padding: 20px;
-    text-align: right;
-    display: none;
-    
-}
 
-#burger-menu img {
-    display: inline-block;
-    text-align: right;
-}
 
-#burger-menu ul {
-    list-style: none;
-    text-align: center;
-}
 
-#burger-menu a {
-    text-decoration: none;
-    color: #333333;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-#buy-now, #burger-btn {
-    padding: 14px 26px;
-    background: #000;
-    color: #fff;
-    font-family: "Jost", "Arial";
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-    letter-spacing: 0%;
-}
-
-#buy-now:hover, #burger-btn:hover {
-    background: #fff;
-    color: #000;
-    transition: 700ms;
-}
-
-#buy-now:active, #burger-btn:active {
-    background: #bfbfbf;
-}
 
 h1 {
     font-style: normal;
@@ -189,43 +120,9 @@ p {
     color: #333333;
 }
 
-#info1, #info2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 115px;
-}
 
-#info2 img {
-    margin-right: 50px;
-}
 
-#info2 p {
-    margin-bottom: 28px;
-}
 
-#info2 ul {
-    list-style: none;
-    display: flex;
-    max-width: 400px;
-}
-
-#info2 ul li {
-    margin-right: 10px;
-    margin-bottom: 8px;
-}
-
-#info2 ul li div {
-    padding: 9px 30px 9px 16px;
-    background: #000;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
-}
 
 .heading {
     padding: 6px 100px 16px 30px;
@@ -240,19 +137,5 @@ p {
     margin-bottom: 60px;
 }
 
-.wrap {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
 
-.wrap2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
 
-.wrap div, .wrap2 div {
-    padding: 29px;
-    background-color: rgba(124, 124, 124, 0.1);
-    margin-right: 46px;
-    margin-bottom: 78px;
-}

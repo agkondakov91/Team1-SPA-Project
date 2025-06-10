@@ -1,0 +1,42 @@
+#info1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 115px;
+}
+#info2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 115px;
+}
+#info2 img {
+    margin-right: 50px;
+}
+
+#info2 p {
+    margin-bottom: 28px;
+}
+
+#info2 ul {
+    list-style: none;
+    display: flex;
+    max-width: 400px;
+}
+
+#info2 ul li {
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+
+#info2 ul li div {
+    padding: 9px 30px 9px 16px;
+    background: #000;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
