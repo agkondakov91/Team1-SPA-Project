@@ -1,0 +1,7 @@
+:root {
+  --font-family-main: 'Jost', Arial, sans-serif;
+}
+
+#info1, #info2 {
+  font-family: var(--font-family-main);
+}

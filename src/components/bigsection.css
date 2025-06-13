@@ -1,7 +1,11 @@
+:root {
+  --font-family-main: 'Jost', Arial, sans-serif;
+}
+
 .heading {
     padding: 6px 100px 16px 30px;
     background: #000;
-    font-family: 'Jost';
+    font-family: var(--font-family-main);
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -27,4 +31,3 @@
     margin-right: 46px;
     margin-bottom: 78px;
 }
-

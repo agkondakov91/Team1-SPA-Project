@@ -1,0 +1,11 @@
+:root {
+  --font-family-main: 'Jost', Arial, sans-serif;
+}
+
+#burger-menu {
+  font-family: var(--font-family-main);
+}
+
+#burger-menu a {
+  font-family: var(--font-family-main);
+}
