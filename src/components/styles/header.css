@@ -1,0 +1,15 @@
+:root {
+  --font-family-main: 'Jost', Arial, sans-serif;
+}
+
+header {
+  font-family: var(--font-family-main);
+}
+
+.nav-h {
+  font-family: var(--font-family-main);
+}
+
+.nav-h a {
+  font-family: var(--font-family-main);
+}
