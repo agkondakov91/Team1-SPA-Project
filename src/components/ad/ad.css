@@ -1,0 +1,24 @@
+#ad button {
+    height: 40px;
+    width: 100px;
+    background: #000;
+    color: #fff;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin-top: 30px;
+}
+
+#ad button:hover {
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    cursor: pointer;
+}
+
+#ad button:active {
+    background: rgba(0, 0, 0, 0.8);
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+footer div {
+    margin-right: 50px;
+}
+
+footer img {
+    cursor: pointer;
+    margin-right: 16px;
+}

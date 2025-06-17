@@ -1,3 +1,19 @@
+@import url("../body/body.css");
+@import url("../burger/burger.css");
+@import url("../header/header.css");
+@import url("../buynow/buy-now.css");
+@import url("../nav/nav.css");
+@import url("../info/info.css");
+@import url("../foot-nav/foot-nav.css");
+@import url("../heading/heading.css");
+@import url("../h1/h1.css");
+@import url("../wrap/wrap.css");
+@import url("../footer/footer.css");
+@import url("../ad/ad.css");
+@import url("../card/card.css");
+
+
+
 * {
     margin: 0px;
     padding: 0px;
@@ -7,178 +23,33 @@ html {
     scroll-behavior: smooth;
 }
 
-body {padding: 0px 60px;}
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px 0px;
-}
 
-header div {
-    display: flex;
-    align-items: center;
-}
+
 
 #right img {
     margin-left: 20px;
     cursor: pointer;
 }
 
-.nav-h {
-    text-decoration: none;
-    display: inline-block;
-    list-style: none;
-}
 
-.nav-h a {
-    color: #000;
-    text-decoration: none
-}
 
-.nav-h a:hover, .foot-nav a:hover {
-    color: #E2B013;
-}
 
-.nav-h a:active, .foot-nav a:active {
-    color: #94740d;
-}
 
-.nav-li {
-    margin-right: 25px;
-}
 
 #b {
     display: none;
 }
 
-#burger-menu {
-    position: fixed;
-    background-color: rgba(255, 234, 0, 1);
-    width: 385px;
-    height: 100%;
-    padding: 20px;
-    text-align: right;
-    display: none;
-    
-}
 
-#burger-menu img {
-    display: inline-block;
-    text-align: right;
-}
 
-#burger-menu ul {
-    list-style: none;
-    text-align: center;
-}
 
-#burger-menu a {
-    text-decoration: none;
-    color: #333333;
-    font-size: 40px;
-    margin-bottom: 20px;
-}
 
-#buy-now, #burger-btn {
-    padding: 14px 26px;
-    background: #000;
-    color: #fff;
-    font-family: "Jost", "Arial";
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
-    letter-spacing: 0%;
-}
 
-#buy-now:hover, #burger-btn:hover {
-    background: #fff;
-    color: #000;
-    transition: 700ms;
-}
 
-#buy-now:active, #burger-btn:active {
-    background: #bfbfbf;
-}
 
-h1 {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 96px;
-    line-height: 86px; 
-    color: #000000;
-    font-family: 'Jost', 'Arial';
-    margin: 40px 0px;
-}
 
-h2 {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 25px;
-    color: #000000;
-    margin-bottom: 46px;
-}
 
-h3 {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background: #E2B013;
-    width: max-content;
-}
-
-h5 {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 32px;
-    text-transform: uppercase;
-    color: #000000;
-    margin-top: 17px;
-    margin-left: 15px;
-}
-
-#cards {
-    text-align: center;
-    max-width: 522px;
-    justify-content: space-between;
-    display: flex;
-    margin-top: 86px;
-}
-
-.card img {
-    margin-bottom: 15px;
-}
-
-h4 {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 14px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #333333;
-}
-
-h6 {
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
-    color: #000000;
-    margin-bottom: 13px;
-}
 
 p {
     font-family: 'Jost';
@@ -189,97 +60,23 @@ p {
     color: #333333;
 }
 
-#info1, #info2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 115px;
-}
 
-#info2 img {
-    margin-right: 50px;
-}
 
-#info2 p {
-    margin-bottom: 28px;
-}
 
-#info2 ul {
-    list-style: none;
-    display: flex;
-    max-width: 400px;
-}
 
-#info2 ul li {
-    margin-right: 10px;
-    margin-bottom: 8px;
-}
-
-#info2 ul li div {
-    padding: 9px 30px 9px 16px;
-    background: #000;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.heading {
-    padding: 6px 100px 16px 30px;
-    background: #000;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 45px;
-    color: #FFFFFF;
-    max-width: fit-content;
-    margin-bottom: 60px;
-}
-
-.wrap {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.wrap2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.wrap div, .wrap2 div {
-    padding: 29px;
-    background-color: rgba(124, 124, 124, 0.1);
-    margin-right: 46px;
-    margin-bottom: 78px;
-}
 hr {
     border: none;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     margin-bottom: 68px;
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 60px;
-}
 
-footer div {
-    margin-right: 50px;
-}
 
 #links {
     margin-top: 198px;
 }
 
-footer img {
-    cursor: pointer;
-    margin-right: 16px;
-}
+
 
 input {
     margin-top: 30px;
@@ -289,54 +86,9 @@ input {
     border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-#ad button {
-    height: 40px;
-    width: 100px;
-    background: #000;
-    color: #fff;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    margin-top: 30px;
-}
 
-#ad button:hover {
-    background: rgba(0, 0, 0, 0.5);
-    border: none;
-    cursor: pointer;
-}
 
-#ad button:active {
-    background: rgba(0, 0, 0, 0.8);
-    border: none;
-    cursor: pointer;
-}
 
-.foot-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
-.foot-nav ul {
-    list-style: none;
-    margin-bottom: 17px;
-}
-
-.foot-nav li {
-    margin-bottom: 13px;
-}
-
-.foot-nav a {
-    text-decoration: none;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
-    color: #333333;
-}
 
 
 @media (max-width: 1024px) {
@@ -406,9 +158,7 @@ input {
         font-size: 10px;
     }
 
-    body {
-        padding: 0px 10px;
-    }
+   
 }
 
 @media (max-width: 430px) {

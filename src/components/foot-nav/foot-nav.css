@@ -1,0 +1,30 @@
+.foot-nav a:hover {
+    color: #E2B013;
+}
+
+.foot-nav a:active {
+    color: #94740d;
+}
+.foot-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-nav ul {
+    list-style: none;
+    margin-bottom: 17px;
+}
+
+.foot-nav li {
+    margin-bottom: 13px;
+}
+
+.foot-nav a {
+    text-decoration: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #333333;
+}

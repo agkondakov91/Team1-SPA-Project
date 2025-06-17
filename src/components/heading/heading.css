@@ -1,0 +1,12 @@
+.heading {
+    padding: 6px 100px 16px 30px;
+    background: #000;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+    max-width: fit-content;
+    margin-bottom: 60px;
+}

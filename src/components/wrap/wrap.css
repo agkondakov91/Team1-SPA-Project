@@ -1,0 +1,22 @@
+.wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.wrap2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.wrap div {
+    padding: 29px;
+    background-color: rgba(124, 124, 124, 0.1);
+    margin-right: 46px;
+    margin-bottom: 78px;
+}
+ .wrap2 div {
+    padding: 29px;
+    background-color: rgba(124, 124, 124, 0.1);
+    margin-right: 46px;
+    margin-bottom: 78px;
+}
