@@ -1,13 +1,65 @@
 {
-    "posts": [
-      { "id": "1", "title": "a title", "views": 100 },
-      { "id": "2", "title": "another title", "views": 200 }
-    ],
-    "comments": [
-      { "id": "1", "text": "a comment about post 1", "postId": "1" },
-      { "id": "2", "text": "another comment about post 1", "postId": "1" }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
-  }
+    "data": [
+        {
+            "header": {
+                "title": "A stylish UI Kit for all web creatives",
+                "subtitle": "Zero is a Webflow Ecommerce and CMS UI kit including several carefully designed page layouts.",
+                "image": "./img/headerImg.webp"
+            }
+        },
+        {
+            "section1": {
+                "title": "Zero Design",
+                "subtitle": "Includes a total of 10 static pages, divided like this: 4 Landing pages, 2 About pages, 2 Contact page, 1 Team page, 1 FAQ page. In addition to these, there are Webflow CMS driven pages: Blog (in 2 variations), Shop (in 2 variations), Works and Careers. All with their respective single pages!",
+                "image": "./img/info2.webp"
+            }
+        },
+        {
+            "section2": {
+                "title": "LANDING PAGES",
+                "image1": "./img/l1.png",
+                "image2": "./img/l2.png",
+                "image3": "./img/l3.png",
+                "image4": "./img/l4.png"
+            }
+        },
+        {
+            "section3": {
+                "title": "COMPANY",
+                "image1": "./img/c1.png",
+                "image2": "./img/c2.png",
+                "image3": "./img/c3.png",
+                "image4": "./img/c4.png",
+                "image5": "./img/c5.png",
+                "image6": "./img/c6.png",
+                "image7": "./img/c7.png"
+            }
+        },
+        {
+            "section4": {
+                "title": "CMS Pages",
+                "image1": "./img/cm1.png",
+                "image2": "./img/cm2.png",
+                "image3": "./img/cm3.png",
+                "image4": "./img/cm4.png",
+                "image5": "./img/cm5.png",
+                "image6": "./img/cm6.png",
+                "image7": "./img/cm7.png",
+                "image8": "./img/cm8.png",
+                "image9": "./img/cm9.png",
+                "image10": "./img/cm10.png",
+                "image11": "./img/cm11.avif"
+            }
+        },
+        {
+            "section5": {
+                "title": "Utility",
+                "image1": "./img/u1.png",
+                "image2": "./img/u2.png",
+                "image3": "./img/u3.png",
+                "image4": "./img/u4.png",
+                "image5": "./img/u5.png"
+            }
+        }
+    ]
+}
