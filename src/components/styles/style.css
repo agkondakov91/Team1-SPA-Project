@@ -63,7 +63,21 @@ header div {
 #b {
     display: none;
 }
-
+#right {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    gap: 20px; 
+}
+     
+#buy-now {
+    margin-left: 20px; 
+}
+        
+.header-icons {
+    display: flex;
+    gap: 20px; 
+}
 #burger-menu {
     position: fixed;
     background-color: rgba(255, 234, 0, 1);
